@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewList</string>
+    <string name="title_activity_category_view_holder">CategoryViewHolder</string>
+</resources>
