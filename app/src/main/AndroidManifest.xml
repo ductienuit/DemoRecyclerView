@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".adapter.CatergoryViewHolder" />
-        <activity android:name=".DetailTopicActivity"></activity>
+        <activity
+            android:name=".DialogEditTopic"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity android:name=".DetailTopicActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity"></activity>
     </application>
 
 </manifest>

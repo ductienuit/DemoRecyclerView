@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ViewList</string>
     <string name="title_activity_category_view_holder">CategoryViewHolder</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="happy">It is going to be fun</string>
+    <string name="testString1">Geography</string>
 </resources>

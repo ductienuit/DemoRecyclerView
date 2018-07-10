@@ -5,7 +5,6 @@
     android:orientation="horizontal"
     android:layout_marginBottom="8dp"
     android:padding="4dp">
-
     <LinearLayout
     android:layout_width="0dp"
     android:layout_height="wrap_content"
@@ -34,9 +33,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:textSize="13dp"
+            android:textSize="13sp"
             android:textStyle="bold"
-            android:text="Geography"
+            android:text="@string/testString1"
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
@@ -44,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:textSize="11dp"
+            android:textSize="11sp"
             android:text="It is going to be fun"/>
 
     </LinearLayout>
