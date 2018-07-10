@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".adapter.CatergoryViewHolder" />
+        <activity android:name=".DetailTopicActivity"></activity>
     </application>
 
 </manifest>

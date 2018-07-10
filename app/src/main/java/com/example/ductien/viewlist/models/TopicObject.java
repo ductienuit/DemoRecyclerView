@@ -5,7 +5,6 @@ package com.example.ductien.viewlist.models;
  */
 
 public class TopicObject {
-
     private String topicImage;
     private String topicName;
     private String topicDescription;
