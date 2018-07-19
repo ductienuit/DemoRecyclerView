@@ -1,8 +1,19 @@
 <resources>
-    <string name="app_name">ViewList</string>
+    <string name="app_name">Internship App</string>
     <string name="title_activity_category_view_holder">CategoryViewHolder</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
     <string name="happy">It is going to be fun</string>
     <string name="testString1">Geography</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="createAccount">No account yet?</string>
+    <string name="createOne">Create one </string>
+    <string name="login">Login</string>
+    <string name="login_gmail">Login Gmail</string>
+    <string name="login_facebook">Login Facebook</string>
+    <string name="facebook_app_id">1013048342190367</string>
+    <string name="fb_login_protocol_scheme">fb1013048342190367</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">News</string>
 </resources>

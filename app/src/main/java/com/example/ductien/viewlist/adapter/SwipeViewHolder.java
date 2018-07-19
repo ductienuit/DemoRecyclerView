@@ -6,21 +6,26 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.daimajia.swipe.SwipeLayout;
 import com.example.ductien.viewlist.R;
 
 
-public class CategoryViewHolder extends RecyclerView.ViewHolder{
+public class SwipeViewHolder extends RecyclerView.ViewHolder{
 
+    SwipeLayout swipeLayout;
     public ImageView topicImage;
     public TextView topicName;
     public TextView topicDescription;
-    public View view;
+    TextView tvDelete;
+    TextView tvEdit;
 
-    public CategoryViewHolder(View itemView) {
+    public SwipeViewHolder(View itemView) {
         super(itemView);
         topicImage = (ImageView)itemView.findViewById(R.id.topic_image);
         topicName = (TextView)itemView.findViewById(R.id.topic_name);
         topicDescription = (TextView)itemView.findViewById(R.id.topic_description);
-        view = itemView;
+        swipeLayout = itemView.findViewById(R.id.swipe);
+        tvDelete = (TextView) itemView.findViewById(R.id.tvDelete);
+        tvEdit = (TextView) itemView.findViewById(R.id.tvEdit);
     }
 }

@@ -7,7 +7,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layouttopic">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -51,5 +53,27 @@
                 android:textSize="11dp" />
 
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layouttopic"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Draw table"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <com.example.ductien.viewlist.FabricView.FabricView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faricView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Blue">
+        </com.example.ductien.viewlist.FabricView.FabricView>
     </LinearLayout>
 </RelativeLayout>
